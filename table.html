@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width", initial-scale=1.0">
+    <title> Table </title>
+</head>
+<body>
+    <h1> Table demo </h1>
+
+    ID      name    age     Salary      Designation
+    A100    Subha   34      20000       Supervisor
+    A102    Lamba   28      18000       Junior
+    A134    Amit    25      17000       Associate
+<!-- this tag is about how to print table -->
+<!-- tr= table row, td=table data -->
+<!-- <rowspan></rowspan> to merge row, <colspan></colspan> to merge column -->
+    <table border="2" cellpadding="10"cellspacing="10">
+
+        <tr> 
+            <th> ID </th>
+            <th colspan="2"> Full Name </th>
+            <!-- <th> Last name </th> -->
+            <th> Age </th>
+            <th> Salary </th>
+            <th> Designation </th>
+        </tr>
+        <tr> 
+           <td> A100 </td>
+           <td> Subha</td>
+           <td> Ghosh </td>
+           <td> 34 </td>
+           <td> 21000 </td>
+           <td> Manager </td>
+        </tr>
+        <tr> 
+            <td> A102 </td>
+            <td> Lamba </td>
+            <td> Sherpa </td>
+            <td> 28 </td>
+            <td> 19000 </td>
+            <td rowspan="2">JR. Manager </td>
+        </tr>
+        <tr> 
+            <td> A103 </td>
+            <td> Avhi </td>
+            <td> Banarjee </td>
+            <td> 29 </td>
+            <td> 18000 </td>
+            <!-- <td> JR. Manager </td> -->
+        </tr>
+    </table>
+</body>
+</html>
